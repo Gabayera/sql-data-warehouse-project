@@ -126,3 +126,6 @@ EXCEPTION
         RAISE; -- re-raise the original error to stop execution
 END;
 $$;
+
+call bronze.load_bronze();
+
